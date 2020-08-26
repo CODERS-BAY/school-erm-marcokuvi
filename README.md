@@ -6,3 +6,19 @@ The classes of a school year are taught by the teachers in the individual subjec
 It should be possible to find out the class leaders of the different classes, as well as by whom which functions (class representative, cashier, etc.) are or were exercised.
 Teachers are not remunerated according to the number of hours they teach, but according to the value units they hold: Each subject is assigned to a specific compulsory teaching group (I to VI). A factor (1.167 to 0.75) is defined for each teaching obligation group, which is used to convert lessons into value units.
 A parent is responsible for each pupil (unless the pupil is a self-entitled guardian). If siblings attend school, this should also be able to be determined.
+
+## Text notification
+
+Teacher (Sv Nr. : int, Unit: int, Name: varchar, Birthday: date) <br> 
+Class (ID: int, Number of Students: int, Year: date) <br>
+Students (Sv Nr. : int, Name: varchar, Birthday: date, Siblings: boolean, Parents: boolean) <br>
+Curriculum (Year: date) <br>
+Subjects (Lessons Group: int, Factors: double,) <br>
+Classroom (Classroom Nr. : int) <br>
+Departments (Department Nr. : int)
+
+![Foto](schoolErm.jpg)
+
+
+
+
