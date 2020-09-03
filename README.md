@@ -19,6 +19,50 @@ Departments (Department Nr. : int)
 
 ![Foto](schoolErm.jpg)
 
+<br>
+
+Class -> (Class Id, Teacher_Sv.Nr., Student_Sv.Nr., Classroom Nr., Departments Nr., Subjects) 
+
+Curriculum -> (Curriculum year, Class Id, Lessons group,)
+
+Teacher -> (Sv. Nr., Name, Birthday, Unit)
+
+Student -> (Class Id, Sv. Nr. )
+
+Student Family -> (Sv. Nr. Siblings_Id, Parents_Id )
+
+Grades -> (Class Id. Students. Id, Lessons group, Subjects)
+
+Departments -> (Headmaster_Teacher Id., Department Nr.)
+
+Classrom -> (Classrom Nr. , Subjects)
+
+Subjects -> (Subjects Name, Subjects Id., Teacher)
+
+Teacher_teaches_Class : <br>
+Class Id <br>
+Sv Nr. 
+
+Students_learns_Class : <br>
+Class Id. <br>
+Sv Nr.
+
+Teacher_focus_Curriculum : <br>
+Sv Nr. <br>
+year
+
+Teacher_teaches_Subjects : <br>
+Sv Nr. <br>
+Lessons group
+
+Students_learns_Subjects : <br>
+Sv Nr. <br>
+Lessons Group
+
+CLass_includes_Classroom : <br>
+Class Id. <br>
+Classroom Nr.
+
 
 
 
